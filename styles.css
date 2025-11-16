@@ -1,19 +1,4 @@
 
-.flower {
-    position: absolute;
-    bottom: 10vmin;
-    transform-origin: bottom center;
-    z-index: 10;
-    --fl-speed: 0.8s;
-}
-
-
-body{
-  background:#e5e5e5;
-  margin:0;
-  font-family: sans-serif;
-  text-align:center;
-}
 .container{
   margin-top:60px;
 }
@@ -53,6 +38,9 @@ body{
   width:24px;
   height:24px;
   fill:#1e7bff;
+}
+Body {
+  background: url(background.jpg);
 }
 
 /* تنسيق الزر (جعله متوسط الحجم) */
@@ -106,8 +94,9 @@ body{
 }
 
 .close-btn:hover,
-.close-btn:focus {
+.close-btn:focus {    
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
