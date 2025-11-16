@@ -47,3 +47,44 @@ body{
 body {
   background: url(background.jpg);
 }
+
+<style>
+  /* تصميم المربع التعريفي */
+  .about-me-box {
+    /* اللون الأبيض للمربع */
+    background-color: #ffffff; 
+    /* لون النص داخل المربع (الأسود) */
+    color: #333333; 
+    /* عرض المربع (يمكنك تعديله) */
+    max-width: 600px; 
+    /* الهامش الداخلي (المسافة بين النص وحواف المربع) */
+    padding: 30px; 
+    /* شكل الحواف (مستديرة قليلاً) */
+    border-radius: 12px; 
+    /* الظل لإعطاء شكل ثلاثي الأبعاد */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    /* توسيط المربع في منتصف الصفحة أفقياً */
+    margin: 40px auto; 
+    /* الخط المستخدم (يمكنك تغييره) */
+    font-family: 'Arial', sans-serif; 
+    /* محاذاة النص */
+    text-align: right; 
+    /* اتجاه النص من اليمين لليسار */
+    direction: rtl; 
+  }
+
+  /* تصميم عناوين النص داخل المربع */
+  .about-me-box h2 {
+    color: #007bff; /* يمكنك اختيار لون أزرق أو لون يناسب تصميمك */
+    margin-top: 0;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* تصميم فقرات النص داخل المربع */
+  .about-me-box p {
+    line-height: 1.6; /* تباعد الأسطر لقراءة أسهل */
+    margin-bottom: 15px;
+  }
+</style>
