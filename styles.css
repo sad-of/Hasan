@@ -1,9 +1,3 @@
-
-Body {
-  background: url(background.jpg);
-}
-
-
 body{
   background:#e5e5e5;
   margin:0;
@@ -49,6 +43,9 @@ body{
   width:24px;
   height:24px;
   fill:#1e7bff;
+}
+Body {
+  background: url(background.jpg);
 }
 
 /* تنسيق الزر (جعله متوسط الحجم) */
