@@ -39,9 +39,6 @@
   height:24px;
   fill:#1e7bff;
 }
-Body {
-  background: url(background.jpg);
-}
 
 /* تنسيق الزر (جعله متوسط الحجم) */
 .action-button {
@@ -100,3 +97,6 @@ Body {
   cursor: pointer;
 }
 
+Body {
+  background: url(background.jpg); /* محاولة تعيين صورة للخلفية */
+}
