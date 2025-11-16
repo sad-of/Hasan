@@ -1,0 +1,38 @@
+body{
+  background:#e5e5e5;
+  margin:0;
+  font-family: sans-serif;
+  text-align:center;
+}
+.container{
+  margin-top:60px;
+}
+.profile{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  border:6px solid #1e7bff;
+  object-fit:cover;
+}
+.name{
+  font-size:30px;
+  color:#1e7bff;
+  margin:10px 0 0;
+}
+.subtitle{
+  margin:5px 0 25px;
+  color:#444;
+}
+.icons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:20px;
+}
+.icon{
+  width:45px;
+  height:45px;
+  background:white;
+  border-radius:50%;
+  box-shadow:0 3px 10px rgba(0,0,0,0.12);
+}
