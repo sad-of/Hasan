@@ -1,10 +1,6 @@
 
-.flower {
-    position: absolute;
-    bottom: 10vmin;
-    transform-origin: bottom center;
-    z-index: 10;
-    --fl-speed: 0.8s;
+Body {
+  background: url(background.jpg);
 }
 
 
