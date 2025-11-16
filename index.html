@@ -57,5 +57,39 @@
   }
 </script>
 
+<button id="openModalBtn" class="action-button">اضغط لترى المنبثق</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h3>رسالة منبثقة! 👋</h3>
+    <p>هذه هي النافذة المنبثقة التي تظهر عند الضغط على الزر.</p>
+  </div>
+</div>
+
+<script>
+// الحصول على العناصر
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("openModalBtn");
+var span = document.getElementsByClassName("close-btn")[0];
+
+// عند النقر على الزر، افتح النافذة
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// عند النقر على (x)، أغلق النافذة
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// عند النقر خارج النافذة، أغلقها
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>
