@@ -8,14 +8,14 @@ body{
   margin-top:60px;
 }
 .profile{
-  width:180px;
-  height:180px;
+  width:190px;
+  height:190px;
   border-radius:50%;
   border:6px solid #1e7bff;
   object-fit:cover;
 }
 .name{
-  font-size:30px;
+  font-size:32px;
   color:#1e7bff;
   margin:10px 0 0;
 }
@@ -26,13 +26,21 @@ body{
 .icons{
   display:flex;
   justify-content:center;
-  gap:15px;
-  margin-top:20px;
+  gap:18px;
+  margin-top:25px;
 }
 .icon{
-  width:45px;
-  height:45px;
+  width:50px;
+  height:50px;
   background:white;
   border-radius:50%;
   box-shadow:0 3px 10px rgba(0,0,0,0.12);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.icon svg{
+  width:24px;
+  height:24px;
+  fill:#1e7bff;
 }
