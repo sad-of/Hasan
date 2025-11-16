@@ -11,7 +11,7 @@ body{
   width:190px;
   height:190px;
   border-radius:50%;
-  border:6px solid #1e7bff;
+  border:6px solid #90EE90;
   object-fit:cover;
 }
 .name{
@@ -21,7 +21,7 @@ body{
 }
 .subtitle{
   margin:5px 0 25px;
-  color:#444;
+  color:#FFD700;
 }
 .icons{
   display:flex;
