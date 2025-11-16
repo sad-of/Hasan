@@ -1,3 +1,13 @@
+
+.flower {
+    position: absolute;
+    bottom: 10vmin;
+    transform-origin: bottom center;
+    z-index: 10;
+    --fl-speed: 0.8s;
+}
+
+
 body{
   background:#e5e5e5;
   margin:0;
@@ -43,15 +53,6 @@ body{
   width:24px;
   height:24px;
   fill:#1e7bff;
-}
-
-
-.flower {
-    position: absolute;
-    bottom: 10vmin;
-    transform-origin: bottom center;
-    z-index: 10;
-    --fl-speed: 0.8s;
 }
 
 /* تنسيق الزر (جعله متوسط الحجم) */
